@@ -3,3 +3,5 @@
 *.ico binary
 *.png binary
 *.img binary
+# These payloads are checked byte-for-byte by the ramdisk recipe.
+/ramdisk-overlay/** -text
