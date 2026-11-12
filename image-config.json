@@ -1,0 +1,11 @@
+{
+  "partition_size": 104857600,
+  "partition_name": "recovery",
+  "algorithm": "SHA256_RSA4096",
+  "rollback_index": 1790812800,
+  "salt": "82bcaa1fa5338956dae194b614310517db53d6c43992b6d7e970e0e7561f8dc1",
+  "release_string": "avbtool 1.4.0",
+  "properties": {
+    "com.android.build.recovery.fingerprint": "Sony/pdx256/pdx256:15/AQ3A.241126.002/SHIMANTO-1.2.0-REL-260915-1632:user/release-keys"
+  }
+}

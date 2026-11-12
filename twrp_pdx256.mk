@@ -13,6 +13,4 @@ PRODUCT_MANUFACTURER := Sony
 
 # Required by the Sony ramdisk recipe, including on a fresh product output.
 PRODUCT_PACKAGES += \
-    xperia_recovery_service_trace.recovery \
-    xperia_recovery_backup_sample \
-    xperia_backup_volumes
+    xperia_recovery_service_trace.recovery

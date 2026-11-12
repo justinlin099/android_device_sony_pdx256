@@ -28,7 +28,8 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 104857600
 BOARD_DTBOIMG_PARTITION_SIZE := 52428800
 TARGET_COPY_OUT_VENDOR := vendor
 
-# The initial image is for offline inspection. Do not alter device AVB settings.
+# Intermediate image; the integration packager signs the final Sony ramdisk
+# using upstream avbtool with explicit image-config.json settings.
 BOARD_AVB_ENABLE := false
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 # Do not import userdata and metadata from the vendor fstab during bring-up.
