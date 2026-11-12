@@ -1,0 +1,34 @@
+dir.xperia_native_manager = /system/xperia-keystore/bin
+dir.xperia_keystore = /tmp/xperia-keystore-bin
+dir.xperia_trace = /tmp
+dir.recovery = /system/bin
+dir.sony_vendor = /vendor/bin
+
+[recovery]
+namespace.default.isolated = false
+namespace.default.search.paths = /system/${LIB}
+namespace.default.asan.search.paths = /data/asan/system/${LIB}
+namespace.default.asan.search.paths += /system/${LIB}
+namespace.default.hwasan.search.paths = /system/${LIB}/hwasan
+namespace.default.hwasan.search.paths += /system/${LIB}
+
+[sony_vendor]
+additional.namespaces = recovery_system
+namespace.default.isolated = true
+namespace.default.search.paths = /vendor/lib64:/vendor/lib64/hw
+namespace.default.links = recovery_system
+namespace.default.link.recovery_system.allow_all_shared_libs = true
+namespace.recovery_system.isolated = true
+namespace.recovery_system.search.paths = /mnt/xperia-stock-system/system/lib64:/mnt/xperia-stock-system/lib64:/system/xperia-keystore/lib64:/system/lib64
+
+[xperia_trace]
+namespace.default.isolated = false
+namespace.default.search.paths = /system/lib64
+
+[xperia_keystore]
+namespace.default.isolated = false
+namespace.default.search.paths = /system/xperia-keystore/lib64:/mnt/xperia-stock-system/system/lib64:/mnt/xperia-stock-system/lib64:/system/lib64
+
+[xperia_native_manager]
+namespace.default.isolated = false
+namespace.default.search.paths = /system/xperia-keystore/lib64:/mnt/xperia-stock-system/system/lib64:/mnt/xperia-stock-system/lib64:/system/lib64

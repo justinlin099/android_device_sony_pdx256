@@ -1,0 +1,9 @@
+cc_binary {
+    name: "xperia_recovery_service_trace",
+    srcs: ["recovery/service_trace.c"],
+    compile_multilib: "64",
+    recovery_available: true,
+    header_libs: ["liblog_headers"],
+    shared_libs: ["libcutils", "libselinux"],
+    cflags: ["-Wall", "-Werror"],
+}

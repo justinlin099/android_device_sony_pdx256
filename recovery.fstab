@@ -1,0 +1,7 @@
+# Initial bring-up: leave encrypted userdata and metadata out of the UI.
+# Source                                   Mount point    Type  Mount flags  FS manager flags
+/dev/block/by-name/boot                     /boot          emmc  defaults     slotselect
+/dev/block/by-name/init_boot                /init_boot     emmc  defaults     slotselect
+/dev/block/by-name/vendor_boot              /vendor_boot   emmc  defaults     slotselect
+/dev/block/by-name/recovery                 /recovery      emmc  defaults     slotselect
+/dev/block/by-name/dtbo                     /dtbo          emmc  defaults     slotselect
