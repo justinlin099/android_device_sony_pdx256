@@ -1,7 +1,7 @@
 # Xperia 1 VII recovery device tree
 
 Device: `pdx256` (Sony Shimanto); validated model: XQ-FS72.
-Branch: `twrp-3.7.1_14`; factory baseline: 71.2.A.2.35.
+Branch: `twrp-14.1`; factory baseline: 71.2.A.2.35.
 Upstream recovery commit: `426b747737e7ce9e9e17da5b4d2ba883f296aec7`
 (`android-14.1`), with `TW_MAIN_VERSION_STR` set to `3.7.1_14`.
 The upstream manifest branch is separately named `twrp-14.1`.
