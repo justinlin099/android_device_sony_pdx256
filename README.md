@@ -17,3 +17,12 @@ packaging tools are required. A plain upstream TWRP build alone is insufficient.
 Follow the integration repo README; do not flash its raw intermediate image.
 
 See NOTICE.md for source and asset attribution.
+
+Companion build integration: https://github.com/justinlin099/twrp_sony_pdx256
+Vendor metadata: https://github.com/justinlin099/android_vendor_sony_pdx256
+These repositories are currently private.
+
+Icon sources and regeneration scripts are in assets/mtp-icons. The ICOs contain
+eight sizes, switching from upper-rear to front/rear artwork at 64 px.
+The product explicitly includes all three Sony recovery helper modules so fresh
+output directories do not depend on leftovers from earlier builds.
