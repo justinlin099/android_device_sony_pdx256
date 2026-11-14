@@ -27,3 +27,8 @@ eight sizes, switching from upper-rear to front/rear artwork at 64 px.
 The product explicitly includes the service launcher required by the recovery
 recipe. Unused sample-backup and custom-volume tools have been removed; normal
 backups use the integrated TWRP backup code.
+
+## License
+
+Original project code: [GPL-3.0-or-later](LICENSE). See [LICENSING.md](LICENSING.md)
+for the covered files and third-party exclusions.

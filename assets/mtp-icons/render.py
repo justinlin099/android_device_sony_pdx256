@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Justin Lin and contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """Render a 488x1054 SVG preview with system librsvg and Cairo on Linux."""
 import ctypes as c
 import sys

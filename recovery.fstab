@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Justin Lin and contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 # Initial bring-up: leave encrypted userdata and metadata out of the UI.
 # Source                                   Mount point    Type  Mount flags  FS manager flags
 /dev/block/by-name/boot                     /boot          emmc  defaults     slotselect

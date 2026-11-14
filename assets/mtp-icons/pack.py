@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Justin Lin and contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """Pack rendered PNG frames and update recipe hashes; requires Pillow."""
 import hashlib
 import json

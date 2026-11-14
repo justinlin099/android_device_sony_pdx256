@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Justin Lin and contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 # Use the Android 14 System SDK for this bring-up image. The stock vendor
 # shipped with API 35, so leave PRODUCT_SHIPPING_API_LEVEL unset here.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)

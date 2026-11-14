@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Justin Lin and contributors
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 cc_binary {
     name: "xperia_recovery_service_trace",
     srcs: ["recovery/service_trace.c"],

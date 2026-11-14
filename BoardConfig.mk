@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Justin Lin and contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 # Recovery target for XQ-FS72 stock 71.2.A.2.35; Sony FBE integration is in patches/.
 DEVICE_PATH := device/sony/pdx256
 

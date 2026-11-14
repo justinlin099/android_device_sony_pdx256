@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Justin Lin and contributors
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 #include <asm/ptrace.h>
 #include <cutils/sockets.h>
 #include <elf.h>
